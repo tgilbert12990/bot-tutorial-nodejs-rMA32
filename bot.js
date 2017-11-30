@@ -5,7 +5,7 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-      botRegex = /^\/cool guy/;  botRegexDL = /^\/DDL/i;botRegexSalt = /^\/salt/;botRegexRules = /^\/rules/
+      botRegex = /^\/rules/;  botRegexDL = /^\/DDL/i;botRegexSalt = /^\/https://daddyleagues.com/iliminded/rules;botRegexRules = /^\/rules/
       botRegexAd=/^\/advance/;botRegexGTA = /^\/gta/; botRegexSC = /^\/SDL/i; botODB = /(.*\s+)(.*odb)(\s+.*)/i; botDuck = /^\/duck/;
       botRegexP = /^\/PDL/i;  botRegexTw = /^\/twitch/i; botRegexSb = /^\/sub/; botRegexSh = /^\/shrug/; botRegexWk = /^\/users/; botRegexCC = /^\/cc/;
       botRegexSiege = /^\/siege/; botRegexOW = /^\/ratings/; 
@@ -13,8 +13,8 @@ function respond() {
       botRegexProp = /^\/prop/;botRegexKys = /^\/kys/; botRegexSlam = /^\/slam/; botRegexBrye = /^\/brye/;
       botRegexGian = /^\/gian/; botRegexScrotes = /^\/scrotes/; botRegexShaki = /^\/shaki/;
       botRegexDaf = /^\/dafuq/; botRegexMA32 = /^\/pending/; botRegexTrade = /^\/trade/; 
-      siege1 = 'https://i.groupme.com/350x419.png.adc8c73a6c1547e0a9e04320296329f8'; siege2 = 'https://i.groupme.com/1279x752.jpeg.aa5d0401e0df495bba4b4e09dc5a6bd7'
-      siege3 = 'https://i.groupme.com/960x960.png.006e180e05d841c6a2962e844bf1e6fd';
+      siege1 = 'https://i.groupme.com/756f0700ac4e4e4e309c029796; siege2 = 'https://i.groupme.com/1279x752.jpeg.756f0700ac4e4e4e309c029796
+      siege3 = 'https://i.groupme.com/756f0700ac4e4e4e309c029796;
   var teamAb = ["NE","NO","ARI","PHI","CLE","TEN","OAK","DAL","IND","SEA","CIN","PIT","JAC"
                 ,"BAL","SD","DEN","MIN","ATL","KC","NYG","GB","DET","HOU","STL","CHI","CAR",
                 "MIA","BUF","SF","WAS","NYJ","TB"]
@@ -25,12 +25,12 @@ function respond() {
   }
   else if(request.text && botRegexSlut.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/640x364.jpeg.f8a0e216bf7e42ed9a86b3ae23cc2ff1.large");
+    postMessage("https://i.groupme.com/640x364.jpeg.756f0700ac4e4e4e309c029796large");
     this.res.end();
   } 
   else if(request.text && botRegexProp.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/409x327.jpeg.08b5d95c51bb4897835cfe6b514f2f52.large");
+    postMessage("https://i.groupme.com/409x327.jpeg.756f0700ac4e4e4e309c029796large");
     this.res.end();
   }
   else if(request.text && botRegexKys.test(request.text)) {
