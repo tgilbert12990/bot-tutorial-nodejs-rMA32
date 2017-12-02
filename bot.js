@@ -13,8 +13,7 @@ function respond() {
       botRegexProp = /^\/prop/;botRegexKys = /^\/kys/; botRegexSlam = /^\/slam/; botRegexBrye = /^\/brye/;
       botRegexGian = /^\/gian/; botRegexScrotes = /^\/scrotes/; botRegexShaki = /^\/shaki/;
       botRegexDaf = /^\/dafuq/; botRegexMA32 = /^\/pending/; botRegexTrade = /^\/trade/; 
-      siege1 = 'https://i.groupme.com/756f0700ac4e4e4e309c029796; siege2 = 'https://i.groupme.com/1279x752.jpeg.756f0700ac4e4e4e309c029796
-      siege3 = 'https://i.groupme.com/756f0700ac4e4e4e309c029796;
+      siege1 = 'https://i.groupme.com/756f0700ac4e4e4e309c029796; 
   var teamAb = ["NE","NO","ARI","PHI","CLE","TEN","OAK","DAL","IND","SEA","CIN","PIT","JAC"
                 ,"BAL","SD","DEN","MIN","ATL","KC","NYG","GB","DET","HOU","STL","CHI","CAR",
                 "MIA","BUF","SF","WAS","NYJ","TB"]
