@@ -23,55 +23,55 @@ function respond() {
     postMessage(cool());
     this.res.end();
   }
-  else if(request.text && botRegexSlut.test(request.text)) {
+  else if(request.text && /rules.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/640x364.jpeg.756f0700ac4e4e4e309c029796large");
+    postMessage("https://daddyleagues.com/iliminded/rules);
     this.res.end();
   } 
-  else if(request.text && botRegexProp.test(request.text)) {
+  else if(request.text && /schedule.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/409x327.jpeg.756f0700ac4e4e4e309c029796large");
+    postMessage("https://daddyleagues.com/iliminded/schedules);
     this.res.end();
   }
-  else if(request.text && botRegexKys.test(request.text)) {
+  else if(request.text && /power.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://www.wikihow.com/Tie-a-Noose");
+    postMessage("https://daddyleagues.com/iliminded/standing/ranking);
     this.res.end();
   } 
-  else if(request.text && botRegexSlam.test(request.text)) {
+  else if(request.text && /divison.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://pbs.twimg.com/profile_images/587294731471757313/ZpI5PfKq.jpg");
+    postMessage("https://daddyleagues.com/iliminded/standings);
     this.res.end();
   } 
-  else if(request.text && botRegexDaf.test(request.text)) {
+  else if(request.text && /home.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i3.kym-cdn.com/photos/images/facebook/000/787/356/d6f.jpg");
+    postMessage("https://daddyleagues.com/iliminded);
     this.res.end();
   } 
-  else if(request.text && botRegexBrye.test(request.text)) {
+  else if(request.text && /owners.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/600x490.jpeg.b31d5153fb474d9bb18dd51b3d650afe.large");
+    postMessage("https://daddyleagues.com/iliminded/coaches);
     this.res.end();
   } 
-  else if(request.text && botRegexGian.test(request.text)) {
+  else if(request.text && /stats.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i.imgur.com/9V6ZnvD.png");
+    postMessage("https://daddyleagues.com/iliminded/stats/player);
     this.res.end();
   } 
-  else if(request.text && botRegexScrotes.test(request.text)) {
+  else if(request.text && /records.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/1006x1340.jpeg.730381e4280e4028b8375432af14f39f.large");
+    postMessage("https://daddyleagues.com/iliminded/stats/career);
     this.res.end();
   } 
-  else if(request.text && botRegexShaki.test(request.text)) {
+  else if(request.text && /teamstats.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/305x375.jpeg.a8dd3aa18c7a4963a553e6dc16bcb100.large");
+    postMessage("https://daddyleagues.com/iliminded/stats/team);
     this.res.end();
   } 
-  else if(request.text && botRegexDL.test(request.text)) {
+  else if(request.text && /player.test(request.text)) {
     this.res.writeHead(200);
     //postMessage("http://www.daddyleagues.com/maddenrating?name=&position=all&team="+request.text.substring(5,8));
-    postMessage("http://daddyleagues.com/nml18/team/"+request.text.substring(5,8)+"/depthchart");
+    postMessage("https://daddyleagues.com/iliminded/players);
     this.res.end();
   } 
   
