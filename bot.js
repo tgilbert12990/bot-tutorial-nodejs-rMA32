@@ -5,7 +5,7 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-      botRegex = /^\/rules/;  botRegexDL = /^\/DDL/i;botRegexSalt = /^\/https://daddyleagues.com/iliminded/rules;botRegexRules = /^\/rules/
+      botRegex = /^\/cool guy/;  botRegexDL = /^\/DDL/i;botRegexSalt = /^\/salt/;botRegexRules = /^\/rules/
       botRegexAd=/^\/advance/;botRegexGTA = /^\/gta/; botRegexSC = /^\/SDL/i; botODB = /(.*\s+)(.*odb)(\s+.*)/i; botDuck = /^\/duck/;
       botRegexP = /^\/PDL/i;  botRegexTw = /^\/twitch/i; botRegexSb = /^\/sub/; botRegexSh = /^\/shrug/; botRegexWk = /^\/users/; botRegexCC = /^\/cc/;
       botRegexSiege = /^\/siege/; botRegexOW = /^\/ratings/; 
@@ -13,7 +13,8 @@ function respond() {
       botRegexProp = /^\/prop/;botRegexKys = /^\/kys/; botRegexSlam = /^\/slam/; botRegexBrye = /^\/brye/;
       botRegexGian = /^\/gian/; botRegexScrotes = /^\/scrotes/; botRegexShaki = /^\/shaki/;
       botRegexDaf = /^\/dafuq/; botRegexMA32 = /^\/pending/; botRegexTrade = /^\/trade/; 
-      siege1 = 'https://i.groupme.com/756f0700ac4e4e4e309c029796; 
+      siege1 = 'https://i.groupme.com/350x419.png.adc8c73a6c1547e0a9e04320296329f8'; siege2 = 'https://i.groupme.com/1279x752.jpeg.aa5d0401e0df495bba4b4e09dc5a6bd7'
+      siege3 = 'https://i.groupme.com/960x960.png.006e180e05d841c6a2962e844bf1e6fd';
   var teamAb = ["NE","NO","ARI","PHI","CLE","TEN","OAK","DAL","IND","SEA","CIN","PIT","JAC"
                 ,"BAL","SD","DEN","MIN","ATL","KC","NYG","GB","DET","HOU","STL","CHI","CAR",
                 "MIA","BUF","SF","WAS","NYJ","TB"]
@@ -22,55 +23,55 @@ function respond() {
     postMessage(cool());
     this.res.end();
   }
-  else if(request.text && /rules.test(request.text)) {
+  else if(request.text && botRegexSlut.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://daddyleagues.com/iliminded/rules);
+    postMessage("https://i.groupme.com/640x364.jpeg.f8a0e216bf7e42ed9a86b3ae23cc2ff1.large");
     this.res.end();
   } 
-  else if(request.text && /schedule.test(request.text)) {
+  else if(request.text && botRegexProp.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://daddyleagues.com/iliminded/schedules);
+    postMessage("https://i.groupme.com/409x327.jpeg.08b5d95c51bb4897835cfe6b514f2f52.large");
     this.res.end();
   }
-  else if(request.text && /power.test(request.text)) {
+  else if(request.text && botRegexKys.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://daddyleagues.com/iliminded/standing/ranking);
+    postMessage("http://www.wikihow.com/Tie-a-Noose");
     this.res.end();
   } 
-  else if(request.text && /divison.test(request.text)) {
+  else if(request.text && botRegexSlam.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://daddyleagues.com/iliminded/standings);
+    postMessage("https://pbs.twimg.com/profile_images/587294731471757313/ZpI5PfKq.jpg");
     this.res.end();
   } 
-  else if(request.text && /home.test(request.text)) {
+  else if(request.text && botRegexDaf.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://daddyleagues.com/iliminded);
+    postMessage("http://i3.kym-cdn.com/photos/images/facebook/000/787/356/d6f.jpg");
     this.res.end();
   } 
-  else if(request.text && /owners.test(request.text)) {
+  else if(request.text && botRegexBrye.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://daddyleagues.com/iliminded/coaches);
+    postMessage("https://i.groupme.com/600x490.jpeg.b31d5153fb474d9bb18dd51b3d650afe.large");
     this.res.end();
   } 
-  else if(request.text && /stats.test(request.text)) {
+  else if(request.text && botRegexGian.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://daddyleagues.com/iliminded/stats/player);
+    postMessage("http://i.imgur.com/9V6ZnvD.png");
     this.res.end();
   } 
-  else if(request.text && /records.test(request.text)) {
+  else if(request.text && botRegexScrotes.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://daddyleagues.com/iliminded/stats/career);
+    postMessage("https://i.groupme.com/1006x1340.jpeg.730381e4280e4028b8375432af14f39f.large");
     this.res.end();
   } 
-  else if(request.text && /teamstats.test(request.text)) {
+  else if(request.text && botRegexShaki.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://daddyleagues.com/iliminded/stats/team);
+    postMessage("https://i.groupme.com/305x375.jpeg.a8dd3aa18c7a4963a553e6dc16bcb100.large");
     this.res.end();
   } 
-  else if(request.text && /player.test(request.text)) {
+  else if(request.text && botRegexDL.test(request.text)) {
     this.res.writeHead(200);
     //postMessage("http://www.daddyleagues.com/maddenrating?name=&position=all&team="+request.text.substring(5,8));
-    postMessage("https://daddyleagues.com/iliminded/players);
+    postMessage("http://daddyleagues.com/nml18/team/"+request.text.substring(5,8)+"/depthchart");
     this.res.end();
   } 
   
